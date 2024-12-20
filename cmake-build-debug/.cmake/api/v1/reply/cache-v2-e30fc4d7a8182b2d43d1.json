@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/programming/Coursework/GuessTheWordGame/cmake-build-debug"
+			"value" : "d:/programming/GuessTheWordGame/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/programming/Coursework/GuessTheWordGame/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "D:/programming/GuessTheWordGame/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/programming/Coursework/GuessTheWordGame"
+			"value" : "D:/programming/GuessTheWordGame"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1279,7 +1279,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/programming/Coursework/GuessTheWordGame/cmake-build-debug"
+			"value" : "D:/programming/GuessTheWordGame/cmake-build-debug"
 		},
 		{
 			"name" : "GuessTheWordGame_IS_TOP_LEVEL",
@@ -1303,7 +1303,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/programming/Coursework/GuessTheWordGame"
+			"value" : "D:/programming/GuessTheWordGame"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

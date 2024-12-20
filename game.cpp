@@ -36,8 +36,11 @@ void Game::initializeGame() {
         throw runtime_error("Words list is empty!");
     }
 
-    vector<string> possibleWords =
-        (gameMode == GameMode::ADAPTIVE) ? getWordsByDifficulty() : wordsList;
+    vector<string> possibleWords = wordsList;
+
+    if (gameMode == GameMode::ADAPTIVE) {
+        possibleWords = getWordsByDifficulty();
+    }
 
     random_device rd;
     mt19937 gen(rd());

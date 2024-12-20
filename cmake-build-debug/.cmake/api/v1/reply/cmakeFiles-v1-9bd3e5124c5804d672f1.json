@@ -817,8 +817,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "D:/programming/Coursework/GuessTheWordGame/cmake-build-debug",
-		"source" : "D:/programming/Coursework/GuessTheWordGame"
+		"build" : "D:/programming/GuessTheWordGame/cmake-build-debug",
+		"source" : "D:/programming/GuessTheWordGame"
 	},
 	"version" : 
 	{
