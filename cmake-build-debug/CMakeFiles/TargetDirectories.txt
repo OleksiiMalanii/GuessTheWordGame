@@ -1,0 +1,3 @@
+D:/programming/Coursework/GuessTheWordGame/cmake-build-debug/CMakeFiles/GuessTheWordGame.dir
+D:/programming/Coursework/GuessTheWordGame/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/programming/Coursework/GuessTheWordGame/cmake-build-debug/CMakeFiles/rebuild_cache.dir
