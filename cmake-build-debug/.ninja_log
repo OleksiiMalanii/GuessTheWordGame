@@ -1,9 +1,16 @@
 # ninja log v6
-6	1526	7564188724250324	CMakeFiles/GuessTheWordGame.dir/main.cpp.obj	861d0a1b13a59238
-7	473	7564188921043934	GuessTheWordGame.exe	217c85d3493fa18d
-25	1726	7564188724429070	CMakeFiles/GuessTheWordGame.dir/game.cpp.obj	afdf4147ccb4f24b
-11	1228	7564197212989107	CMakeFiles/GuessTheWordGame.dir/main.cpp.obj	ce8ec18799bb42f9
-26	1461	7564197213131757	CMakeFiles/GuessTheWordGame.dir/game.cpp.obj	30d16431c104fef9
-1461	1697	7564197227487714	GuessTheWordGame.exe	217c85d3493fa18d
-9	1443	7564199793180873	CMakeFiles/GuessTheWordGame.dir/game.cpp.obj	30d16431c104fef9
-1444	1642	7564199807523354	GuessTheWordGame.exe	217c85d3493fa18d
+6	40	7565201911013029	CMakeFiles/GuessTheWordGame.dir/game.cpp.obj.modmap	33c296a52776ea44
+40	572	7565201658023077	GuessTheWordGame.exe	26368a3c9f2c00cd
+2178	3757	7565201054557920	CMakeFiles/GuessTheWordGame.dir/main.cpp.obj	8cce4c261438e25
+6	40	7565201911013029	CMakeFiles/GuessTheWordGame.dir/main.cpp.obj.modmap	33c296a52776ea44
+6	371	7565203044525663	build.ninja	3b14d6bb0795e51e
+2214	4058	7565201054925040	CMakeFiles/GuessTheWordGame.dir/game.cpp.obj	6654d2e56be2f7d0
+6	40	7565201911013029	CMakeFiles/GuessTheWordGame.dir/CXX.dd	33c296a52776ea44
+13	2132	7565201032915275	CMakeFiles/GuessTheWordGame.dir/main.cpp.obj.ddi	71e9f1e677b8e5ee
+55	2133	7565201033335839	CMakeFiles/GuessTheWordGame.dir/game.cpp.obj.ddi	4a8e8f92bd00cfca
+6	40	7565201911013029	D:/programming/GuessTheWordGame/cmake-build-debug/CMakeFiles/GuessTheWordGame.dir/CXXModules.json	33c296a52776ea44
+6	41	7565203060365479	CMakeFiles/GuessTheWordGame.dir/CXX.dd	33c296a52776ea44
+6	41	7565203060365479	D:/programming/GuessTheWordGame/cmake-build-debug/CMakeFiles/GuessTheWordGame.dir/CXXModules.json	33c296a52776ea44
+6	41	7565203060365479	CMakeFiles/GuessTheWordGame.dir/main.cpp.obj.modmap	33c296a52776ea44
+6	41	7565203060365479	CMakeFiles/GuessTheWordGame.dir/game.cpp.obj.modmap	33c296a52776ea44
+42	507	7565203060716026	GuessTheWordGame.exe	2bfc23aa3a5a230f

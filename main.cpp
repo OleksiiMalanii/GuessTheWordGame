@@ -20,6 +20,13 @@ GameMode chooseGameMode() {
     }
 }
 
+bool askToContinue() {
+    char choice;
+    cout << "Do you want to continue? (y/n): ";
+    cin >> choice;
+    return choice == 'y' || choice == 'Y';
+}
+
 int main() {
     try {
         GameMode mode = chooseGameMode();
@@ -45,6 +52,9 @@ int main() {
 
             if (game.isGameOver()) {
                 cout << "Game over. The word was: " << game.getTargetWord() << "\n";
+            }
+
+            if (!askToContinue()) {
                 break;
             }
         }
