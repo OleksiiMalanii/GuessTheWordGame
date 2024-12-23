@@ -14,6 +14,13 @@ using namespace std;
 enum class GameMode { CLASSIC, WITH_HINTS, ADAPTIVE };
 
 class Game {
+public:
+    Game();
+    void start();
+    void setMode(GameMode mode);
+    void play();
+    void saveHistory(const string& result);
+
 private:
     vector<string> wordsList;
     string targetWord;

@@ -1,4 +1,7 @@
 #include "Game.h"
+#include <iostream>
+#include <chrono>
+#include <ctime>
 using namespace std;
 
 Game::Game(const std::string& filename, int maxAttempts, GameMode mode)
@@ -127,3 +130,37 @@ void Game::displayCurrentState() const {
     cout << "Current state: " << currentState << "\n";
     cout << "Attempts left: " << attemptsLeft << "\n";
 }
+
+// Функція для збереження історії гри, включаючи дату, час та режим гри
+void Game::saveHistory(const string& result) {
+    // Отримуємо поточний час
+    auto now = chrono::system_clock::to_time_t(chrono::system_clock::now());
+
+    // Перетворюємо час у рядок
+    char buffer[80];
+    struct tm timeInfo;
+    localtime_s(&timeInfo, &now);
+    strftime(buffer, sizeof(buffer), "%Y-%m-%d %H:%M:%S", &timeInfo);  // Формат: 2024-12-23 14:30:00
+
+    string timeStr(buffer);
+
+    // Визначаємо режим гри для збереження
+    string modeStr;
+    switch (gameMode) {
+        case GameMode::CLASSIC: modeStr = "Classic"; break;
+        case GameMode::WITH_HINTS: modeStr = "With Hints"; break;
+        case GameMode::ADAPTIVE: modeStr = "Adaptive"; break;
+        default: modeStr = "Unknown"; break;
+    }
+
+    // Відкриваємо файл для запису
+    ofstream historyFile("history.txt", ios::app);
+    if (historyFile.is_open()) {
+        // Записуємо дату, час, режим гри і результат гри
+        historyFile << "[" << timeStr << "] " << "Mode: " << modeStr << " - " << result << endl;
+        historyFile.close();
+    } else {
+        cerr << "Error opening history file!" << endl;
+    }
+}
+

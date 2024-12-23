@@ -3,3 +3,5 @@ build CMakeFiles/GuessTheWordGame.dir/main.cpp.obj: dyndep
 
 build CMakeFiles/GuessTheWordGame.dir/game.cpp.obj: dyndep
 
+build CMakeFiles/GuessTheWordGame.dir/GameModule.cpp.obj: dyndep
+

@@ -1,4 +1,9 @@
 "C:\Program Files\JetBrains\CLion 2024.3.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.3.1/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\programming\GuessTheWordGame -B D:\programming\GuessTheWordGame\cmake-build-debug
--- Configuring done (0.3s)
--- Generating done (0.0s)
+-- Found Python: C:/Users/Oleksii Malanii/AppData/Local/Programs/Python/Python313/python.exe (found suitable version "3.13.1", minimum required is "3.7") found components: Interpreter Development.Module Development.Embed
+-- pybind11::lto disabled (problems with undefined symbols for MinGW for now)
+-- pybind11::thin_lto disabled (problems with undefined symbols for MinGW for now)
+-- Found pybind11: C:/Users/Oleksii Malanii/PycharmProjects/UI/.venv/Lib/site-packages/pybind11/include (found version "2.13.6")
+-- Found Python3: optimized;C:/Users/Oleksii Malanii/AppData/Local/Programs/Python/Python313/libs/python313.lib;debug;C:/Users/Oleksii Malanii/AppData/Local/Programs/Python/Python313/libs/python313_d.lib (found version "3.13.1") found components: Development Development.Module Development.Embed
+-- Configuring done (1.5s)
+-- Generating done (0.1s)
 -- Build files have been written to: D:/programming/GuessTheWordGame/cmake-build-debug
